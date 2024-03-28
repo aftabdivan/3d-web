@@ -9,7 +9,7 @@ import PanaromaImage from "./components/PanaromaImage/PanaromaImage.jsx";
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/3d-web">
       <Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />
